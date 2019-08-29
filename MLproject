@@ -1,0 +1,8 @@
+name: time_Series_forecasting
+
+entry_points:
+  main:
+    parameters:
+      dataset_no: {type: int, default:1}
+      testno: {type: int, default: 20}
+    command: ""C:\Program Files\R\R-3.6.1\bin\Rscript.exe" "time_Series_forecasting.R" {dataset_no} {testno}"
