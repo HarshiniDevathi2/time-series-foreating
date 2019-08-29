@@ -5,4 +5,4 @@ entry_points:
     parameters:
       dataset_no: {type: integer, default: 1}
       testno: {type: integer, default: 20}
-    command: ""C:\Program Files\R\R-3.6.1\bin\Rscript.exe" "time_Series_forecasting.R" {dataset_no} {testno}"
+    command: "Rscript time_Series_forecasting.R {dataset_no} {testno}"
